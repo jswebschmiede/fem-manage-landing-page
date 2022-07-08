@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html,
+    body {
+        @apply h-full;
+    }
+    
+    body {
+        @apply text-managedarkblue100 antialiased overflow-x-hidden scrollbar scrollbar-track-slate-400 scrollbar-thumb-managedarkblue100;
+    }
+}
